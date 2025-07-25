@@ -2,7 +2,7 @@ def apply_coupon(price, coupon_code):
     discounts = {
         "SALES10": 0.10,
         "SUPER20": 0.20,
-        "WELCOME": 0.15
+       "WELCOME": 0.15  # lo comentamos para simular eliminación para prueba de regresión
     }
 
     if coupon_code in discounts:
